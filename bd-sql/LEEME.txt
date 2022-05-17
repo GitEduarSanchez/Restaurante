@@ -1,0 +1,28 @@
+SE RECOMIENDA TENER INSTALADO (PHP SUPERIOR O IGUAL A 5.6)
+
+Para la configuracion de conexion del sistema, debere de modificar los sistemas archivos
+
+Dentro de la carpeta RESTAURANT se encuentra un archivo que se llama restaurant_backup.sql - ese archivo debera de importarlo en el phpmyadmin,
+donde primero deberá de crear una Base de Datos llamada softrestaurantes
+
+Para configurar los titulos y footer del sistema, deberan de modificar los archivos titulos.js, que se encuentran en la
+carpeta assets ---> script /
+
+Detro de la carpeta class tenemos:
+
+classconexion.php = que será el archivo para configurar la conexion del sistema en general.
+
+Dentro de la carpeta restaurant, donde se encuentran todos los archivos .php del sistema, debera de configurar los siguientes archivos,
+que son encargados para el respaldo y restauracion de la Base de Datos:
+
+backup.php
+restore.php
+
+Actualmente para acceder al Sistema se puede ingresar al mismo con los siguientes datos de acceso:
+
+ADMINISTRADOR - USUARIO Y CLAVE = RUBENCHIRINOS
+CAJERO - USUARIO Y CLAVE = CAJERO123
+MESERO - USUARIO Y CLAVE = MESERO123
+COCINERO - USUARIO Y CLAVE = COCINERO123
+REPARTIDOR - USUARIO Y CLAVE = REPARTIDOR123
+
