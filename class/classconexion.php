@@ -3,9 +3,9 @@ include("timezones_class.php");
 class Db{
 		
 	private $dbHost     = "localhost";
-    private $dbUsername = "isasport_isa";
-    private $dbPassword = "1091658551edwar20";
-    private $dbName     = "isasport_restaurante";
+    private $dbUsername = "root";
+    private $dbPassword = "";
+    private $dbName     = "restaurante";
 	protected $p; 
 	protected $dbh; 
 	
